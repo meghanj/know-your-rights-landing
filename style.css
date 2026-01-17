@@ -357,6 +357,19 @@ ul {
     display: block;
 }
 
+/* Mobile Responsive */
+@media (max-width: 767px) {
+    .logo-text {
+        font-size: 0.5em;
+        /* 8px - compact size for mobile */
+    }
+
+    .header-logo-img {
+        height: 0.75em;
+        /* 12px - compact logo size for mobile */
+    }
+}
+
 /* Responsive */
 @media (min-width: 768px) {
     .hero-content {
